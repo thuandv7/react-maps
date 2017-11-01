@@ -25,6 +25,12 @@ export default class App extends Component {
           loadingEnabled={true}
           showsIndoorLevelPicker={true}
           onRegionChange={this.onRegionChange}
+          initialRegion={{
+            latitude: 21.033333,
+            longitude: 105.849998,
+            latitudeDelta: 0.0922,
+            longitudeDelta: 0.0421,
+          }}
           >
 
           </MapView>
